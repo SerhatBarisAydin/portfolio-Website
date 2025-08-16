@@ -11,7 +11,7 @@ const ExperienceCardComponent = () => {
         </h1>
       </div>
 
-      <div className="w-2xl h-fit  bg-base-200 ml-5 p-5 rounded-2xl shadow-lg ">
+      <div className="w-2xl h-fit  bg-base-200  ml-5 p-5 rounded-2xl shadow-lg ">
         <h1 className="font-bold  text-xl text-violet-500">Company Name</h1>
         <h2 className="font-light text-lg text-violet-400">Role</h2>
         <p className="text-gray-500">
@@ -26,3 +26,4 @@ const ExperienceCardComponent = () => {
 };
 
 export default ExperienceCardComponent;
+

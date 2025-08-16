@@ -4,7 +4,7 @@ import SkillsCardComponent from '../SkillsCardComponent'
 const SkillsComponent = () => {
   return (
     
-    <div className='w-11/12 bg-violet-600 h-90 rounded-2xl mb-125   '>
+    <div className='flex flex-col items-center w-11/12 bg-violet-600 h-90 rounded-2xl mb-125   '>
       <div className=' items-center mt-15   text-center'>
         <h1 className='text-5xl font-bold text-white '>Skills</h1>
       </div>
@@ -12,6 +12,8 @@ const SkillsComponent = () => {
       <SkillsCardComponent/>
       <SkillsCardComponent/>
       </div>
+
+     
     </div>
   )
 }
