@@ -1,0 +1,24 @@
+{
+  "tav": {
+    "name": "TAV Technologies",
+    "description": "I code things from scratch, and gracefully bring the ideas to life and to the browser, paying maximal attention to your vision of the product.",
+    "year":"2024",
+    "month": "july",
+    "role": "Software Engineer"
+},
+  "ravenFrontend": {
+    "name": "Raven Technology",
+    "description": "Building robust server-side applications and APIs. Lore askl Building robust server-side applications and APIs. Lore askl",
+    "year": "2023",
+    "month": "March",
+        "role": "Software Engineer"
+  },
+
+  "ravenBackend": {
+    "name": "Raven Technology",
+    "description": "Building robust server-side applications and APIs. Lore askl Building robust server-side applications and APIs. Lore askl",
+    "year": "2023",
+    "month": "february",
+    "role": "Software Engineer"
+  }
+}

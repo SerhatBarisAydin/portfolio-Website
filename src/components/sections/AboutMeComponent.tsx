@@ -4,7 +4,7 @@ import avatar from "../../assets/animations/male-avatar.json"
 
 const AboutMeComponent = () => {
   return (
-    <div className="hero mt-6 h-4/5 w-12/12   ">
+    <div id='about' className="hero mt-6 h-4/5 w-12/12   ">
   <div className="hero-content text-center">
     <div className="w-9/12 ">
       <Lottie className='h-50 mb-10' animationData={avatar}/>

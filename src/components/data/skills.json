@@ -1,0 +1,14 @@
+{
+  "frontend": {
+    "name": "Frontend",
+    "description": "I code things from scratch, and gracefully bring the ideas to life and to the browser, paying maximal attention to your vision of the product.",
+    "languages": ["JavaScript", "TypeScript", "HTML", "CSS"],
+    "tools": ["React", "Redux", "Webpack", "Babel"]
+  },
+  "backend": {
+    "name": "Backend",
+    "description": "Building robust server-side applications and APIs. Lore askl Building robust server-side applications and APIs. Lore askl",
+    "languages": ["Node.js", "Python", "Java", "PHP"],
+    "tools": ["Express", "Django", "Spring", "Laravel"]
+  }
+}
