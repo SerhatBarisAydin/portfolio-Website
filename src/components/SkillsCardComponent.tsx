@@ -8,7 +8,7 @@ tools?: string[]
 }
 const SkillsComponent = (props: SkillsCardComponentProps) => {
   return (
-<div className="card bg-base-200 pt-5 w-3/12 min-h-full relative shadow-sm hover:shadow-lg">
+<div className="card bg-base-200 pt-5 w-4/14 min-h-fit flex  relative shadow-sm hover:shadow-lg">
   <figure>
     <img
     className='h-20 mt-5'

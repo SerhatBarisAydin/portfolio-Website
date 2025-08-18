@@ -1,9 +1,10 @@
 import React from "react";
+import Lottie from "lottie-react";
 
 interface ProjectCardProps {
   name: string;
   description: string;
-  imageSrc?: string;
+  imageSrc?: object;
   visitLink: string;
   color: string;
 }
@@ -15,7 +16,11 @@ const ProjectsCardComponent = (props: ProjectCardProps) => {
 
       <div style={{backgroundColor: props.color}} className="card  rounded-2xl w-5/16 h-full card-lg shadow-sm justify-center items-center  text-gray-500 ">
         <div className="  w-9/12 h-9/12 flex justify-center items-center" >
-          <img src={props.imageSrc} alt={props.name} className="w-full h-full object-cover rounded-2xl" />
+          <Lottie
+            animationData={props.imageSrc}
+            loop={true}
+            className="w-full h-full"
+          />
         </div>
       </div>
 

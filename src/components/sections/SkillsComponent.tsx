@@ -12,10 +12,10 @@ const SkillsComponent = () => {
     background: "linear-gradient(to bottom, #7c3aed 45%, transparent 30%)"
   }}
     >
-      <div className=" items-center mt-15   text-center">
+      <div className="  mt-15   text-center">
         <h1 className="text-5xl font-bold text-white ">Skills</h1>
       </div>
-      <div className="flex flex-row mt-15 gap-20 justify-center items-center ">
+      <div className="flex flex-row mt-15 gap-20 justify-center items-start ">
         <SkillsCardComponent 
         
         name={data.frontend.name}

@@ -10,6 +10,7 @@ import SkillsComponent from "./components/sections/SkillsComponent"
 
 const App = () => {
   return (
+    
     <div className='w-screen h-screen overflow-y-auto flex flex-col items-center '>
       <HeaderComponent/>
       <AboutMeComponent/>
