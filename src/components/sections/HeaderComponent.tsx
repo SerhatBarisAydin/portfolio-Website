@@ -5,14 +5,14 @@ import { BrowserRouter } from "react-router-dom";
 const HeaderComponent = () => {
   return (
     <BrowserRouter>
-      <div className="navbar shadow-sm justify-between ">
-        <div className=" navbar-start w-2/15 h-full justify-center ">
-          <a className=" text-shadow-2xs font-bold text-blue-600 text-2xl">
+      <div className="navbar shadow-sm  flex justify-between  items-center">
+        <div className=" navbar-start xl:flex hidden xl:w-2/15 w-full h-full xl:justify-center justify-center ">
+          <a className=" text-shadow-2xs font-bold text-blue-600 xl:text-2xl text-3xl">
             SBA
           </a>
         </div>
 
-        <div className="navbar-end flex  flex-row justify-end  gap-3 w-8/12 h-full">
+        <div className="navbar-end xl:flex hidden  flex-row justify-end  gap-3 w-8/12 h-full">
           <HashLink
             smooth
             to="#about"
@@ -49,7 +49,7 @@ const HeaderComponent = () => {
             Resume ⬇️
           </a>
         </div>
-        <div className=" flex flex-row justify-center gap-2 items-center w-fit h-full">
+        <div className="  xl:flex hidden flex-row justify-center gap-2 items-center w-fit h-full">
           <a
             href="https://github.com/SerhatBarisAydin"
             target="_blank"
@@ -79,12 +79,11 @@ const HeaderComponent = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            
-              <img
-                className="w-10  rounded-full cursor-pointer hover:border-amber-300 hover:border-1"
-                src="assets/icons/medium.png"
-                alt=""
-              />
+            <img
+              className="w-10  rounded-full cursor-pointer hover:border-amber-300 hover:border-1"
+              src="assets/icons/medium.png"
+              alt=""
+            />
           </a>
 
           <a
@@ -98,6 +97,56 @@ const HeaderComponent = () => {
               alt=""
             />
           </a>
+        </div>
+
+          <div className="ps-4 xl:hidden flex items-center justify-center">
+            <a className="text-lg font-bold">SBA</a>
+          </div>
+          <div className="flex grow justify-end px-2 xl:hidden ">
+            <div className="dropdown dropdown-end">
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn btn-ghost rounded-field"
+              >
+                menu
+              </div>
+              <ul
+                tabIndex={0}
+                className="menu dropdown-content bg-base-200 rounded-box z-1 mt-4 w-52 p-2 shadow-sm"
+              >
+                <HashLink to="#about">
+                  <li>
+                    <a>About</a>
+                  </li>
+                </HashLink>
+                <HashLink to="#skills">
+                  <li>
+                    <a>Skills</a>
+                  </li>
+                </HashLink>
+                <HashLink to="#projects">
+                  <li>
+                    <a>Projects</a>
+                  </li>
+                </HashLink>
+                <HashLink to="#experience">
+                  <li>
+                    <a>Experience</a>
+                  </li>
+                </HashLink>
+                <HashLink to="#contact">
+                  <li>
+                    <a>Contact Me</a>
+                  </li>
+                </HashLink>
+                <li className="bg-violet-500 text-white ">
+                  <a href="/cv.pdf" download="cv.pdf">
+                    Download my resume
+                  </a>
+                </li>
+              </ul>
+          </div>
         </div>
       </div>
     </BrowserRouter>

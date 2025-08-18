@@ -7,15 +7,15 @@ const SkillsComponent = () => {
     
     <div
       id="skills"
-      className="flex flex-col items-center w-11/12  h-fit pb-10 rounded-2xl    "
+      className="flex flex-col items-center justify-center w-11/12  h-fit pb-10 rounded-2xl   "
       style={{
-    background: "linear-gradient(to bottom, #7c3aed 45%, transparent 30%)"
+    background: " linear-gradient(to bottom, #7c3aed 45%, transparent 30%)"
   }}
     >
-      <div className="  mt-15   text-center">
-        <h1 className="text-5xl font-bold text-white ">Skills</h1>
+      <div className="  md:mt-15 mt-15 mb-15 md:mb-0  text-center">
+        <h1 className="text-5xl md:text-5xl font-bold text-white  ">Skills</h1>
       </div>
-      <div className="flex flex-row mt-15 gap-20 justify-center items-start ">
+      <div className="flex md:flex-row flex-col  md:mt-15 mt-8 gap-20 justify-center md:items-start items-center ">
         <SkillsCardComponent 
         
         name={data.frontend.name}

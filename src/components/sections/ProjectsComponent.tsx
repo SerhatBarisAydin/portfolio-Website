@@ -7,7 +7,7 @@ import banking from '../../assets/animations/Online Payment.json'
 const ProjectsComponent = () => {
   return (
     <div id='projects' className=' flex flex-col  justify-center items-center w-full  '>
-        <h1 className='font-bold text-5xl mt-20 mb-20 '>Projects</h1>
+        <h1 className='font-bold text-5xl mt-20 md:mb-20 mb-5 '>Projects</h1>
         <ProjectsCardComponent
           name={data.aviationManagement.name}
           description={data.aviationManagement.description}

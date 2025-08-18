@@ -3,11 +3,11 @@ import ExperienceCardComponent from '../ExperienceCardComponent'
 import data from '../data/experience.json'
 const ExperienceComponent = () => {
   return (
-    <div id='experience' className='w-full h-fit pb-20 mt-20  pt-0 flex flex-col justify-between items-center '>
-        <div className='flex-2/3 mb-20 '>
+    <div id='experience' className='w-full h-fit  pb-20 mt-20  pt-0 md:px-3 md:px-0 flex flex-col  justify-between items-center '>
+        <div className='flex md:mb-20 mb-10'>
         <h1 className='font-bold text-5xl '>Experience</h1>
         </div>
-        <div className='flex-1/3 justify-center items-center '>
+        <div className='flex flex-col gap-5 justify-center items-center '>
     <ExperienceCardComponent
       year={data.tav.year}
       month={data.tav.month}

@@ -41,13 +41,12 @@ const ContactComponent = () => {
   };
 
   return (
-    <div className="w-screen  flex flex-col items-center justify-center gap-5  pb-10 pt-10">
-      <h1 className="font-bold text-5xl mb-20 ">Contact Me</h1>
-
-      <div className="flex flex-row justify-center items-center gap-5 w-full h-full">
-        <fieldset className="fieldset bg-base-200 border-base-300  shadow-sm flex flex-col justify-center gap-4 rounded-box w-2xl h-full border p-4">
-          <h1 className="text-5xl font-bold">Contact With Me 📬</h1>
-          <p className="text-xl text-gray-500">
+    <div id="contact" className="w-screen  flex flex-col items-center justify-center gap-5  pb-10 pt-10">
+      <h1 className="font-bold md:text-5xl text-5xl md:mb-20 mb-5 ">Contact Me</h1>
+      <div className="flex md:flex-row flex-col justify-center items-center gap-5 w-full h-full">
+        <fieldset className="fieldset bg-base-200 border-base-300  shadow-sm flex flex-col justify-center gap-4 rounded-box md:w-2xl w-xs h-full border p-4">
+          <h1 className="md:text-5xl text-xl font-bold">Contact With Me 📬</h1>
+          <p className="md:text-xl text-sm text-gray-500">
             I'm always open to discussing my projects, brainstorming new ideas,
             or just saying hello. Feel free to reach out to me by sending an
             email or by filling out the form below. I believe we can shape the
