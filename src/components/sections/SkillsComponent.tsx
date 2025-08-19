@@ -1,6 +1,7 @@
 import SkillsCardComponent from "../SkillsCardComponent";
 import data from "../data/skills.json";
-
+import backend from "../../assets/animations/backend.json";
+import frontend from "../../assets/animations/frontend.json";
 const SkillsComponent = () => {
   return (
     
@@ -21,6 +22,7 @@ const SkillsComponent = () => {
         description={data.frontend.description}
         languages={data.frontend.languages}
         tools={data.frontend.tools}
+        imgSrc={frontend} // Using the image source from the data
 
         />
         
@@ -30,6 +32,7 @@ const SkillsComponent = () => {
         description={data.backend.description}
         languages={data.backend.languages}
         tools={data.backend.tools}
+        imgSrc={backend} // Using the image source from the data"
 
         />
       </div>

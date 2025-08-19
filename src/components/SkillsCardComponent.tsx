@@ -1,19 +1,18 @@
+import Lottie from "lottie-react";
 
 interface SkillsCardComponentProps {
   name: string;
   description?: string;
   languages?: string[];
   tools?: string[];
+  imgSrc?: object; // Optional image source
 }
 const SkillsComponent = (props: SkillsCardComponentProps) => {
   return (
     <div className="card bg-base-200 pt-5 md:mb-10 nb-5 md:w-4/14 w-4/5 min-h-fit flex relative shadow-sm hover:shadow-lg ">
       <figure>
-        <img
-          className="h-20 md:mt-5"
-          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-          alt="Shoes"
-        />
+        
+        <Lottie className="h-25 md:h-50 md:mt-5" animationData={props.imgSrc} loop={true} />
       </figure>
       <div className="card-body font-mono text-gray-500 text-center ">
         <h2 className="justify-center md:text-2xl text-xl card-title md:mt-5 md:mb-5">

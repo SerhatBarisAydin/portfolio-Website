@@ -2,9 +2,9 @@
   "frontend": {
     "name": "Frontend",
     "description": "I create clean, responsive, and user-friendly interfaces, meticulously turning designs into pixel-perfect, interactive web applications. My focus is on delivering seamless user experiences.",
-        "languages": ["JavaScript", "HTML5", "CSS3"],
+    "languages": ["JavaScript", "HTML5", "CSS3"],
     "tools": ["ReactJS", "Vue.js", "Redux", "Zustand", "Vuex", "Tailwind CSS", "VsCode"]
-  },
+    },
   "backend": {
     "name": "Backend",
     "description": "My expertise lies in building robust, scalable, and secure server-side applications and APIs. I focus on creating the logical foundation of a product and optimizing its performance, ensuring seamless data flow and reliable system functionality.",
