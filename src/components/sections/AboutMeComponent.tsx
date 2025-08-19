@@ -3,12 +3,12 @@ import avatar from "../../assets/animations/male-avatar.json";
 
 const AboutMeComponent = () => {
   return (
-    <div id="about" className="hero mt-6 h-4/5 w-12/12 md:10/12 mb-10 md:mb-0  ">
+    <div id="about" className="hero mt-6 pt-16 h-4/5 w-12/12 md:10/12 mb-10 md:mb-0  ">
       <div className="hero-content text-center">
         <div className="w-full  ">
           <Lottie className="md:h-50 md:mb-10 h-20" animationData={avatar} />
-          <h1 className="md:text-5xl text-2xl font-bold">Serhat Barış Aydin</h1>
-          <p className="py-3 md:py-6 md:text-sm text-xs text-center text-gray-500">
+          <h1 className="md:text-5xl text-3xl font-bold text-violet-500">Serhat Barış Aydin</h1>
+          <p className="py-3 md:py-6 md:text-lg text-xs md:text-center text-justify text-gray-500">
             I'm a computer engineer who takes an active role in a project's
             entire journey, not just the coding. I blend my expertise in
             frontend and backend development with my management and analysis

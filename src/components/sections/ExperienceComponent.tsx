@@ -4,7 +4,7 @@ const ExperienceComponent = () => {
   return (
     <div id='experience' className='w-full h-fit  pb-20 mt-20  pt-0 md:px-3 md:px-0 flex flex-col  justify-between items-center '>
         <div className='flex md:mb-20 mb-10'>
-        <h1 className='font-bold text-5xl '>Experience</h1>
+        <h1 className='font-bold md:text-5xl  text-3xl'>Experience</h1>
         </div>
         <div className='flex flex-col gap-5 justify-center items-center '>
     <ExperienceCardComponent

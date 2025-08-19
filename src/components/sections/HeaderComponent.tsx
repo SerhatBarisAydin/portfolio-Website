@@ -5,14 +5,14 @@ import { BrowserRouter } from "react-router-dom";
 const HeaderComponent = () => {
   return (
     <BrowserRouter>
-      <div className="navbar shadow-sm  flex justify-between  items-center">
-        <div className=" navbar-start xl:flex hidden xl:w-2/15 w-full h-full xl:justify-center justify-center ">
-          <a className=" text-shadow-2xs font-bold text-blue-600 xl:text-2xl text-3xl">
+      <div className="navbar shadow-sm xl:bg-white bg-violet-600  flex justify-between fixed z-50 items-center">
+        <div className=" navbar-start xl:flex hidden xl:w-2/15 w-full  h-full xl:justify-center justify-center ">
+          <a className=" text-shadow-2xs font-bold xl:text-blue-600 text-white xl:text-2xl text-3xl">
             SBA
           </a>
         </div>
 
-        <div className="navbar-end xl:flex hidden  flex-row justify-end  gap-3 w-8/12 h-full">
+        <div className="navbar-end xl:flex hidden flex-row justify-end  gap-3 w-8/12 h-full">
           <HashLink
             smooth
             to="#about"
@@ -49,65 +49,17 @@ const HeaderComponent = () => {
             Resume ⬇️
           </a>
         </div>
-        <div className="  xl:flex hidden flex-row justify-center gap-2 items-center w-fit h-full">
-          <a
-            href="https://github.com/SerhatBarisAydin"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="w-10 h-10 rounded-full hover:fill-emerald-500 cursor-pointer hover:border-amber-300 hover:border-1"
-              src="assets/icons/github.svg"
-              alt="Github"
-            />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/serhatbarisaydin/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="w-10 rounded-full cursor-pointer hover:border-amber-300 hover:border-1"
-              src="/assets/icons/linkedin.png"
-              alt="LinkedIn"
-            />
-          </a>
-
-          <a
-            href="https://medium.com/@serhatbarisaydin"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="w-10  rounded-full cursor-pointer hover:border-amber-300 hover:border-1"
-              src="assets/icons/medium.png"
-              alt=""
-            />
-          </a>
-
-          <a
-            href="https://www.instagram.com/sbarisaydin/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="w-10 rounded-full cursor-pointer hover:border-amber-300 hover:border-1"
-              src="assets/icons/instagram.png"
-              alt=""
-            />
-          </a>
-        </div>
+        
 
           <div className="ps-4 xl:hidden flex items-center justify-center">
-            <a className="text-lg font-bold">SBA</a>
+            <a className="text-lg font-bold text-white">SBA</a>
           </div>
           <div className="flex grow justify-end px-2 xl:hidden ">
-            <div className="dropdown dropdown-end">
+            <div className="dropdown dropdown-end  ">
               <div
                 tabIndex={0}
                 role="button"
-                className="btn btn-ghost rounded-field"
+                className="btn btn-ghost rounded-field text-white"
               >
                 menu
               </div>
