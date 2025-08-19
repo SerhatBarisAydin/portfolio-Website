@@ -52,14 +52,14 @@ const HeaderComponent = () => {
         
 
           <div className="ps-4 xl:hidden flex items-center justify-center">
-            <a className="text-lg font-bold text-white">SBA</a>
+            <a className="text-2xl font-bold text-white">SBA</a>
           </div>
-          <div className="flex grow justify-end px-2 xl:hidden ">
+          <div className="flex  grow justify-end px-2 xl:hidden ">
             <div className="dropdown dropdown-end  ">
               <div
                 tabIndex={0}
                 role="button"
-                className="btn btn-ghost rounded-field text-white"
+                className="btn btn-ghost rounded-field border-1 border-white rounded-2xl text-white"
               >
                 menu
               </div>

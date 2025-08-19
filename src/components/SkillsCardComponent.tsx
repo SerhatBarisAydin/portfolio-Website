@@ -9,16 +9,16 @@ interface SkillsCardComponentProps {
 }
 const SkillsComponent = (props: SkillsCardComponentProps) => {
   return (
-    <div className="card md:bg-base-200 bg-orange-100 pt-5 md:mb-10 nb-5 md:w-4/14 w-4/5 min-h-fit flex relative shadow-sm hover:shadow-lg ">
+    <div className="card md:bg-base-200 bg-orange-50 pt-5  md:mb-10 mb-5 md:w-4/14 w-9/10 min-h-fit flex relative shadow-sm hover:shadow-lg ">
       <figure>
         
         <Lottie className="h-25 md:h-50 md:mt-5" animationData={props.imgSrc} loop={true} />
       </figure>
-      <div className="card-body font-mono text-gray-500 text-center ">
+      <div className="card-body font-mono text-gray-500 text-center px-3 xl:px-5">
         <h2 className="justify-center md:text-2xl text-xl card-title md:mt-5 md:mb-5">
           {props.name}
         </h2>
-        <p className="md:mb-5 md:text-sm text-xs md:text-justify  text-center">{props.description}</p>
+        <p className="md:mb-5 md:text-sm text-xs text-justify  w-full flex justify-center items-center text-center">{props.description}</p>
         
         
         

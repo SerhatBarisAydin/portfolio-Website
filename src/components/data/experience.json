@@ -1,24 +1,24 @@
 {
   "tav": {
     "name": "TAV Technologies",
-    "description": "I code things from scratch, and gracefully bring the ideas to life and to the browser, paying maximal attention to your vision of the product.",
-    "year":"2024",
-    "month": "july",
-    "role": "Software Engineer"
-},
+    "description": "I developed and optimized reusable Vue.js components with Vuex state management and API integration, focusing on performance optimization to enhance responsiveness, while actively contributing to team collaboration and embracing a strong, solution-oriented work culture.",
+    "year": "2024",
+    "month": "aug",
+    "role": "Frontend Developer Intern"
+  },
   "ravenFrontend": {
     "name": "Raven Technology",
-    "description": "Building robust server-side applications and APIs. Lore askl Building robust server-side applications and APIs. Lore askl",
-    "year": "2023",
-    "month": "March",
-        "role": "Software Engineer"
+    "description": "I actively contributed to the full lifecycle development of modern, responsive UI components using JavaScript, HTML, and CSS, implemented robust state management for seamless data flow, and collaborated with backend developers to optimize API consumption, enhancing overall performance and responsiveness.",
+    "year": "2024",
+    "month": "feb",
+    "role": "Frontend Developer Intern"
   },
 
   "ravenBackend": {
     "name": "Raven Technology",
-    "description": "Building robust server-side applications and APIs. Lore askl Building robust server-side applications and APIs. Lore askl",
+    "description": "I developed and optimized RESTful APIs to improve communication between frontend and backend systems, worked extensively with MongoDB for efficient data management, collaborated with frontend developers to integrate APIs for better performance, and strengthened my debugging and problem-solving skills by resolving backend issues affecting the user interface.",
     "year": "2023",
-    "month": "feb",
-    "role": "Software Engineer"
+    "month": "july",
+    "role": "Backend Developer Intern"
   }
 }
