@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import  { useRef, useState, type FormEvent } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactComponent = () => {
@@ -7,19 +7,19 @@ const ContactComponent = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const [isActive, setIsActive] = useState(Boolean);
 
   const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const sendEmail = (e: FormEvent) => {
+  e.preventDefault();
 
-    if (!name || !surname || !email || !message) {
-      alert("Please fill in all fields.");
+  if (!name || !surname || !email || !message) {
+    alert("Please fill in all fields.");
+    return;
+  }
 
-      return;
-    }
-
+  // form.current'ın null olmadığını kontrol ediyoruz
+  if (form.current) {
     emailjs
       .sendForm("sbarisaydin", "template_ohevla3", form.current, {
         publicKey: "zNv6Q15m8dbrPyNsd",
@@ -32,13 +32,16 @@ const ContactComponent = () => {
           setName("");
           setSurname("");
           setMessage("");
-          setIsActive(false);
         },
         (error) => {
           console.log("FAILED...", error.text);
         }
       );
-  };
+  } else {
+    // Bu kısım normalde çalışmaz, ancak hataya karşı bir önlem olabilir
+    console.error("Form referansı bulunamadı.");
+  }
+};
 
   return (
     <div id="contact" className="w-screen  flex flex-col items-center justify-center gap-5  pb-10 pt-10">

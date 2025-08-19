@@ -1,4 +1,3 @@
-import React from 'react'
 import ExperienceCardComponent from '../ExperienceCardComponent'
 import data from '../data/experience.json'
 const ExperienceComponent = () => {

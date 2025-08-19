@@ -1,4 +1,3 @@
-import React from 'react'
 import ProjectsCardComponent from '../ProjectsCardComponent'
 import data from '../data/projects.json'
 import plane from '../../assets/animations/Isometric plane.json'

@@ -1,4 +1,3 @@
-import React from "react";
 import SkillsCardComponent from "../SkillsCardComponent";
 import data from "../data/skills.json";
 
