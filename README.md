@@ -38,7 +38,7 @@ Check out how the project works through the links and visuals below:
 
  
 - 📱 Mobile View:
-<img width="1125" height="2436" alt="Ekran Görüntüsü 2025-08-20 19 03 49" src="https://github.com/user-attachments/assets/3a3c2677-0b0a-4f1e-ad55-8c53af2c6f27" />
+<img width="auto" height="500" alt="Ekran Görüntüsü 2025-08-20 19 03 49" src="https://github.com/user-attachments/assets/3a3c2677-0b0a-4f1e-ad55-8c53af2c6f27" />
 
 ---
 
