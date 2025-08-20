@@ -1,57 +1,60 @@
-# 📌 Proje Adınız - Kişisel Portfolyo Web Sitesi
+<img width="4485" height="2436" alt="Ekran Görüntüsü 2025-08-20 19 04 57" src="https://github.com/user-attachments/assets/697d62bc-3f91-4e01-aa83-2fcaa448f08c" /># 📌 Project Name - Personal Portfolio Website
 
-Bu proje, **[Adınız Soyadınız]** için tasarlanmış ve geliştirilmiş bir kişisel portfolyo web sitesidir.  
-Kendime ait projeleri, yetenekleri ve hakkımda bilgileri sergilemek amacıyla modern web teknolojileri kullanılarak oluşturulmuştur.
-
----
-
-## 💻 Kullanılan Teknolojiler
-
-Bu projeyi geliştirirken aşağıdaki modern teknolojiler ve kütüphaneler kullanılmıştır:
-
-- **React**: Hızlı ve dinamik kullanıcı arayüzleri oluşturmak için güçlü bir JavaScript kütüphanesi.  
-- **Tailwind CSS**: Hızlı ve esnek bir şekilde özel tasarımlar yapmamı sağlayan utility-first CSS framework'ü.  
-- **Daisy UI**: Tailwind CSS üzerine kurulu, daha hızlı arayüz bileşenleri oluşturmak için kullanılan bir eklenti.  
-- **Lottie Animations**: Projeye canlılık katmak ve kullanıcı deneyimini zenginleştirmek için kullanılan hafif ve ölçeklenebilir animasyon kütüphanesi.  
-- **React Router**: Tek sayfa uygulamalarında sayfalar arası gezinmeyi yönetmek için kullanılan standart yönlendirme kütüphanesi.  
+This project is a **personal portfolio website** designed and developed by myself.  
+It was built using modern web technologies to showcase my projects, skills, and personal information.
 
 ---
 
-## ✨ Özellikler
+## 💻 Technologies Used
 
-- 📱 **Duyarlı Tasarım (Responsive Design):** Web sitesi, masaüstü, tablet ve mobil cihazlar dahil olmak üzere tüm ekran boyutlarında kusursuz bir şekilde görüntülenir.  
-- 🎞️ **Akıcı Animasyonlar:** Lottie animasyonları sayesinde kullanıcı etkileşimi daha keyifli hale getirilmiştir.  
-- ⚡ **Hızlı Yükleme:** Modern web standartlarına uygun olarak performans odaklı geliştirilmiştir.  
-- 🎨 **Kullanıcı Dostu Arayüz:** Sade ve anlaşılır bir tasarımla ziyaretçilerin rahatça gezinmesi sağlanmıştır.  
+The following modern technologies and libraries were used in the development of this project:
 
----
-
-## 🚀 Demolar
-
-Projenin nasıl çalıştığını görmek için aşağıdaki bağlantıları ve görselleri inceleyebilirsiniz:
-
-- **Canlı Demo:** [Canlı demo sitenizin URL'si]  
-
-**Görseller:**
-- 📷 Masaüstü Görünümü:  
-- 📱 Mobil Görünüm:  
+- **React**: A powerful JavaScript library for building fast and dynamic user interfaces.  
+- **Tailwind CSS**: A utility-first CSS framework that enables quick and flexible custom designs.  
+- **Daisy UI**: A Tailwind CSS plugin for creating faster and easier UI components.  
+- **Lottie Animations**: A lightweight and scalable animation library used to enhance the user experience.  
+- **React Router**: The standard library for routing in single-page applications.  
 
 ---
 
-## 🛠️ Kurulum
+## ✨ Features
 
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+- 📱 **Responsive Design:** Optimized for all screen sizes, including desktop, tablet, and mobile devices.  
+- 🎞️ **Smooth Animations:** Engaging interactions with Lottie animations.  
+- ⚡ **Fast Loading:** Performance-focused development with modern web standards.  
+- 🎨 **User-Friendly Interface:** Clean and minimal design for easy navigation.  
+
+---
+
+## 🚀 Demos
+
+Check out how the project works through the links and visuals below:
+
+- **Live Demo:** https://serhatbarisaydin.github.io/portfolio-Website/ 
+
+**Screenshots:**
+- 📷 Desktop View:
+
+
+
+ 
+- 📱 Mobile View:  
+
+---
+
+## 🛠️ Installation
+
+To run this project locally, follow these steps:
 
 ```bash
-# Depoyu klonlayın
-git clone https://github.com/kullanici_adiniz/repo_adiniz.git
+# Clone the repository
+git clone https://github.com/serhatbarisaydin/portfolio-Website.git
 
-# Proje dizinine gidin
-cd repo_adiniz
+# Navigate into the project directory
+cd portfolio-Website
 
-# Bağımlılıkları yükleyin
+# Install dependencies
 npm install
 
-# Projeyi başlatın
+# Start the development server
 npm start
-
