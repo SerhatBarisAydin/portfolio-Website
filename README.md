@@ -35,7 +35,7 @@ Check out how the project works through the links and visuals below:
 **Screenshots:**
 
 <p align="center">
-<img width=75% height="auto" alt="Ekran Görüntüsü 2025-08-20 19 04 57" src="https://github.com/user-attachments/assets/697d62bc-3f91-4e01-aa83-2fcaa448f08c" /> <img width=20% height="auto" alt="Ekran Görüntüsü 2025-08-20 19 03 49" src="https://github.com/user-attachments/assets/3a3c2677-0b0a-4f1e-ad55-8c53af2c6f27" />
+<img width=90% height="auto" alt="Ekran Görüntüsü 2025-08-20 19 04 57" src="https://github.com/user-attachments/assets/697d62bc-3f91-4e01-aa83-2fcaa448f08c" /> <img width=40% height="auto" alt="Ekran Görüntüsü 2025-08-20 19 03 49" src="https://github.com/user-attachments/assets/3a3c2677-0b0a-4f1e-ad55-8c53af2c6f27" />
 </p>
 
 
