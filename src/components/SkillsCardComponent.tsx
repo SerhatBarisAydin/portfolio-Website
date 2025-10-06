@@ -37,7 +37,7 @@ const SkillsComponent = (props: SkillsCardComponentProps) => {
         
         
         
-       <div className="flex flex-col  xl:gap-6 gap-3 md:ga-0 md:items-center xl:mt-0 mt-5 xl:items-start items-center justify-center">
+       <div className="flex flex-col  xl:gap-6 gap-3 md:ga-0  xl:mt-0 mt-5 items-center justify-center">
         <div className="flex flex-col items-center justify-center">
         
         <h2 className="text-gray-700 md:text-xl text-sm  md:font-bold font-bold  xl:mt-0    xl:mb-5 mb-2 ">
