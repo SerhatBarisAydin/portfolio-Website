@@ -15,5 +15,10 @@
     "name": "Bank Automation System",
     "description": "Developed a Java-based banking automation system with object-oriented design principles. Implemented authentication, fund transfer, and transaction history features.",
     "visitLink": "https://github.com/SerhatBarisAydin/Baris_Bank"
+  },
+  "reactChatApp": {
+    "name": "Real Time Chat App",
+    "description": "I developed a user-centric web application for real-time communication. The application allows users to register, login, and exchange messages instantly through a clean and responsive interface, enabling them to stay connected and manage conversations efficiently.",
+    "visitLink": "https://github.com/SerhatBarisAydin/react-chat-app"
   }
 }
