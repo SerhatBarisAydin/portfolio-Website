@@ -1,7 +1,6 @@
-import Lottie from "lottie-react";
-import avatar from "../../assets/animations/male-avatar.json";
 import SplitText from "../../components/animations/text/SplitText"
-
+import handsUp from "../../assets/images/handsUp.png"
+import handsDown from "../../assets/images/handsDown.png" 
 
 const AboutMeComponent = () => {
   
@@ -11,13 +10,29 @@ const AboutMeComponent = () => {
     <div id="about" className="hero mt-6 pt-16 h-4/5 w-12/12 md:10/12 mb-10 md:mb-0  ">
       <div className="hero-content text-center">
         <div className="w-full  ">
-          <Lottie className="md:h-50 md:mb-10 h-50 mb-5" animationData={avatar} />
+
+      <div className="relative mb-3  xl:w-50 xl:h-50 w-40 h-40 xl:mb-0  rounded-full overflow-hidden mx-auto group hover:shadow-lg">
+  {/* İlk resim: Normalde görünür, hover'da gizlenir */}
+  <img
+    src={handsDown}
+    alt="Hands Down"
+    className="absolute w-full h-full object-cover object-top rounded-full transition-opacity duration-300 group-hover:opacity-0"
+  />
+  {/* İkinci resim: Normalde gizli, hover'da görünür */}
+  <img
+    src={handsUp}
+    alt="Hands Up"
+    className="absolute w-full h-full object-cover object-top rounded-full transition-opacity duration-300 opacity-0 group-hover:opacity-100"
+  />
+</div>
+        
+
+
 
 
   
         <SplitText
   text={ <h1 className="md:text-5xl text-3xl font-extrabold mb-3 xl:mb-0 text-violet-500">Serhat Barıs Aydin</h1>}
-  className="text-2xl font-semibold text-center"
   delay={100}
   duration={0.6}
   ease="power3.out"
